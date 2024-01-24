@@ -15,9 +15,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/jmorganca/ollama/api"
-	"github.com/jmorganca/ollama/parser"
-	"github.com/jmorganca/ollama/version"
+	"github.com/ollama/ollama/api"
+	"github.com/ollama/ollama/parser"
+	"github.com/ollama/ollama/version"
 )
 
 func setupServer(t *testing.T) (*Server, error) {
